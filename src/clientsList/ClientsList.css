@@ -1,0 +1,51 @@
+.form_clients {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.form_osnova {
+    border: solid 1px red;
+    padding: 100px;
+}
+
+.form_base {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 3px;
+    border: solid 1px rgb(8, 4, 255) ;
+}
+
+.form_item {
+    font-size: 15px;
+}
+
+.searhPanel {
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+.search {
+    margin-right: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.cleint {
+    cursor: pointer;
+}
+
+.cleint:hover {
+    background: rgb(46, 179, 255);
+}
+
+.button {
+    color: rgb(214, 0, 0);
+    font-size: 16px;
+}
+
+.button:hover {
+    color: black;
+    background: rgb(252, 49, 49);
+}

@@ -1,0 +1,50 @@
+.formm {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.formm.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.formm_content {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.form_inputt {
+    width: 140px;
+    height: 20px;
+    margin: 0 15px 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button_form {
+    color: red;
+    font-size: 16px;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.button_form:hover {
+    color: black;
+    background: rgb(255, 15, 15);
+}
